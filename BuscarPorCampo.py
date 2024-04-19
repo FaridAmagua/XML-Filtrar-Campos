@@ -20,7 +20,10 @@ def extract_jugador_ids(xml_file, output_file):
     return jugador_ids, total_jugador_ids
 
 def main():
+    
+    # Next Changes the path
     xml_file = "test.xml"
+    
     output_file = "jugador_ids.txt"
 
     jugador_ids, total_jugador_ids = extract_jugador_ids(xml_file, output_file)
