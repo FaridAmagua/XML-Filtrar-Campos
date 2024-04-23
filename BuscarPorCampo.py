@@ -22,7 +22,7 @@ def extract_jugador_ids(xml_files):
         print(f"Total de JugadorId encontrados en {xml_file}: {total_jugador_ids}")
 
 def main():
-    xml_files = ["enveloped1.xml", "enveloped2.xml"]  # Nombre de los XML
+    xml_files = ["./todos/enveloped1.xml", "./todos/enveloped2.xml"]  # Nombre de los XML
     extract_jugador_ids(xml_files)
 
 if __name__ == "__main__":
